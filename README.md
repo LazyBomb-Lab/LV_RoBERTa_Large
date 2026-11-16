@@ -23,6 +23,14 @@ https://huggingface.co/JesseHuang922/lv_roberta_large
 
 This is a **spaCy transformer-based pipeline for Latvian**, fine-tuned on the **XLM-RoBERTa-large backbone**.  
 
+Latvian is a morphologically rich Baltic language featuring complex inflectional systems, flexible word order, and extensive case markings—posing significant challenges for standard Natural Language Processing (NLP) toolkits. 
+
+**`lv_roberta_large`** bridges the gap between academic benchmarks and production-grade deployment by pairing a high-capacity **`XLM-RoBERTa-large`** transformer backbone with the industrial speed and modularity of the **spaCy** ecosystem:
+
+* **State-of-the-Art Syntactic & Morphological Precision**: Trained on the authoritative **Latvian UD Treebank (LVTB v2.16)**, it outperforms established baselines like Stanza and UDPipe across key structural metrics—achieving **97.92% POS accuracy**, **95.89% morphological tagging**, and **92.12% UAS** (91.58% overall equal-weighted score).
+* **End-to-End Linguistic Pipeline**: Delivers a unified, out-of-the-box workflow covering sentence segmentation, tokenization, POS tagging, fine-grained morphological analysis, dependency parsing, and lemmatization.
+* **Production-Ready Integration**: Easily deployable via Hugging Face Hub or pre-built Python wheels (`.whl`), enabling seamless integration into enterprise text analytics, legal/academic corpus processing, and downstream Baltic NLU applications.
+
 **Performance Comparison**
 
 | Model        | POS    | Tag    | Morph  | UAS    | LAS    | Lemma Acc | Summary (equal weights)   |
