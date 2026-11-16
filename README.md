@@ -21,7 +21,7 @@ https://huggingface.co/JesseHuang922/lv_roberta_large
 
 ## Overview
 
-This is a **spaCy transformer-based pipeline for Latvian**, built with the **XLM-RoBERTa-large backbone**.  
+This is a **spaCy transformer-based pipeline for Latvian**, fine-tuned on the **XLM-RoBERTa-large backbone**.  
 
 **Performance Comparison**
 
